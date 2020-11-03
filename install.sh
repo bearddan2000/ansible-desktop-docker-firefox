@@ -74,7 +74,7 @@ function usage() {
 function start-up(){
 
     scope="start-up"
-    docker_img_name="ansible-docker-desktop-firefox"
+    docker_img_name="ansible-desktop-docker-firefox"
     info_base="[$timestamp INFO]: $basefile::$scope"
 
     echo "$info_base started" >> $logfile
